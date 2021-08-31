@@ -1,14 +1,23 @@
 /* PC */
-@media (min-width: 1024px) {}
+@media (min-width: 64em) {}
 
 /* Tablet and Mobile */
-@media (max-width: 1023px) {
+@media (max-width: 63.9375em) {
+    #nav .subnav a {
+        padding: 5px 12px;
+    }
+
     .btn {
         padding: 15px 16px;
     }
 
     .contact-form .form-control {
         padding: 15px;
+        font-size: 16px;
+    }
+
+    .contact-submit-btn {
+        font-size: 16px;
     }
 
     #footer .socials-list {
@@ -24,13 +33,18 @@
         display: inline-block;
     }
 
+    .contact-info {
+        line-height: 2;
+    }
 }
 
 /* Tablet */
-@media (min-width: 740px) and (max-width: 1023px) {}
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    
+}
 
 /* Mobile */
-@media (max-width: 739px) {
+@media (max-width: 46.1875em) {
 
     /* Common class */
     .s-full-width,
@@ -88,5 +102,14 @@
     /* About section */
     #content .member-img {
         width: 60%;
+    }
+
+    .contact-form {
+        margin-top: 32px;
+    }
+
+    /* Footer section */
+    #footer .socials-list a {
+        margin: 0 2px;
     }
 }

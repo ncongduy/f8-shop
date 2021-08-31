@@ -83,6 +83,8 @@ html {
     display: inline-block;
     margin-top: 15px;
     border: none;
+    appearance: none;
+    -webkit-appearance: none;
 }
 
 .btn:hover {
@@ -225,6 +227,7 @@ html {
 #slider .text-description {
     font-size: 15px;
     margin-top: 15px;
+    text-shadow: 0 0 1px #000;
 }
 
 #content .content-section {
@@ -360,6 +363,10 @@ html {
 .contact-info i {
     width: 30px;
     display: inline-block;
+}
+
+.contact-info a:hover {
+    color: #009688;
 }
 
 .contact-form {
